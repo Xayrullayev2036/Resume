@@ -13,8 +13,7 @@
     <link rel="stylesheet" href="{% static 'css/johndoe.css' %}">
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
-<a href="components.html" class="btn btn-primary btn-component" data-spy="affix" data-offset-top="600"><i
-        class="ti-shift-left-alt"></i> Components</a>
+
 <header class="header">
     <div class="container">
         <ul class="social-icons pt-3">
@@ -83,7 +82,17 @@
             <span class="line mb-5"></span>
             <h5 class="mb-3">A Backend Developer Located In Our Lovely Earth</h5>
             <p class="mt-20">My future plans are to grow my experience as a Backend Developer with a great team</p>
-            <button class="btn btn-outline-danger"><i class="icon-down-circled2 "></i>Download My CV</button>
+            <button class="btn btn-outline-danger" onclick="downloadCV()">
+                <i class="icon-down-circled2"></i> Download My CV
+              </button>
+              
+
+              
+
+
+
+              
+
 
         </div>
         <div class="col-lg-4 about-card">
@@ -93,7 +102,7 @@
                 <li><span>Birthdate</span> : 15/06/2004</li>
                 <li><span>Email</span> : mr.xayrullayev2036@gmail.com</li>
                 <li><span>Phone</span> : +(998) 94-036-20-36</li>
-                <li><span>Skype</span> : Diyorbek Xayrullayev</li>
+                <li><span>Fullname</span> : Diyorbek Xayrullayev</li>
                 <li><span>Address</span> : Farg`ona viloyati Buvayda tumani</li>
             </ul>
             <ul class="social-icons pt-3">
@@ -146,11 +155,18 @@
                         <P class="subtitle">The bot is sent some text or a link for a link, and the bot generates a
                             colorful qrcode for it</P>
                         <hr>
-                        <h6 class="title text-danger">2023 - Present</h6>
+                        <h6 class="title text-danger">2023 - November</h6>
                         <P>Website for Fast-Food using Django with telegram bot</P>
                         <P class="subtitle">You can get information about the product through the website, and you can
                             order the product through the Telegram bot.</P>
-                        <hr>
+                        <h6 class="title text-danger">2023 - December</h6>
+                        <P>Universal telegram bot</P>
+                        <P class="subtitle">Universal telegram bot, through this telegram bot you can get weather information of 12 regions of Uzbekistan, translate words into different languages, get daily prayer times and use ChatGPT support.</P>
+                        <h6 class="title text-danger">2024 - January</h6>
+                        <P>Website for hairdressers</P>
+                        <P class="subtitle">Through this website, you can get acquainted with the work of hairdressers, find out the prices of services, and make a reservation for an online appointment.</P>
+
+                            <hr>
                     </div>
                 </div>
             </div>
@@ -163,9 +179,9 @@
                         </div>
                     </div>
                     <div class="card-body">
-                        <h6 class="title text-danger">2023 - Present</h6>
+                        <h6 class="title text-danger">2022-November - 2023-November</h6>
                         <P>Backend Developer</P>
-                        <P class="subtitle">I am currently studying Python Backend course at PDP Academy.</P>
+                        <P class="subtitle">I am a graduate of PDP Academy Python Backend course.</P>
                         <hr>
 
                     </div>
@@ -182,12 +198,12 @@
                     <div class="card-body pb-2">
                         <h6>Aiogram</h6>
                         <div class="progress mb-3">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="25"
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="25"
                                  aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                         <h6>Sqlite3</h6>
                         <div class="progress mb-3">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="25"
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="25"
                                  aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                         <h6>C++</h6>
@@ -197,12 +213,17 @@
                         </div>
                         <h6>GitHub</h6>
                         <div class="progress mb-3">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="25"
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="25"
                                  aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
-                        <h6>Ubuntu</h6>
+                        <h6>GitLub</h6>
                         <div class="progress mb-3">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="25"
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="25"
+                                 aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <h6>FastApi</h6>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="25"
                                  aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                         <h6>Python</h6>
@@ -212,22 +233,22 @@
                         </div>
                         <h6>OOP</h6>
                         <div class="progress mb-3">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="50"
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="50"
                                  aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                         <h6>PostgreSQL</h6>
                         <div class="progress mb-3">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="75"
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="75"
                                  aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                         <h6>Docker</h6>
                         <div class="progress mb-3">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 60%" aria-valuenow="75"
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75"
                                  aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                         <h6>Django</h6>
                         <div class="progress mb-3">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="75"
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="75"
                                  aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
@@ -370,10 +391,24 @@
 
 <!-- Google mpas -->
 <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtme10pzgKSPeJVJrG1O3tjR6lk98o4w8&callback=initMap"></script>
+        src="https://www.google.com/maps/place/PDP+Academy/@41.3262305,69.2280508,204m/data=!3m1!1e3!4m7!3m6!1s0x38ae8bb7a0ebbae3:0xf9e01b5d45fc68cd!4b1!8m2!3d41.3264751!4d69.2284847!16s%2Fg%2F11h1f1qn6h?entry=ttu"></script>
 
 <!-- Diyorbek Xayrullayev js -->
 <script src="{% static 'js/johndoe.js' %}"></script>
+
+
+<script>
+    function downloadCV() {
+      var link = document.createElement('a');
+      link.href = '{% static "resume_pdf/Diyorbek_Resume.pdf" %}';  // Fayl yo'li va nomini o'zingizning keraklariga moslashtiring
+      link.download = "Diyorbek_Resume.pdf";
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
+  </script>
+  
+  
 
 </body>
 </html>
