@@ -108,8 +108,8 @@ USE_TZ = True
 
 
 STATIC_URL = '/static/'
-STATIC_ROOT = '/home/xayrul5/xayrullayev.uz/django/staticfiles'
-STATICFILES_DIRS = ('/home/xayrul5/xayrullayev.uz/django/static',)
+STATIC_ROOT = '/home/xayrull5/xayrullayev.uz/django/staticfiles'
+STATICFILES_DIRS = ('/home/xayrull5/xayrullayev.uz/django/static',)
 
 
 # local
@@ -121,7 +121,7 @@ STATICFILES_DIRS = ('/home/xayrul5/xayrullayev.uz/django/static',)
 
 
 MEDIA_URL = '/media/'
-MEDIA_ROOT = '/home/xayrul5/xayrullayev.uz/django/media'
+MEDIA_ROOT = '/home/xayrull5/xayrullayev.uz/django/media'
 
 
 # MEDIA_ROOT = BASE_DIR, 'media'
