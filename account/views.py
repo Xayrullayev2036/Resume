@@ -12,4 +12,3 @@ class ComponentsView(TemplateView):
 
 
 
-print("hwllo")
