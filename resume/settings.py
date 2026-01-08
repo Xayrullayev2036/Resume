@@ -113,8 +113,8 @@ STATICFILES_DIRS = ('/home/xayrull5/xayrullayev.uz/django/static',)
 
 
 # local
-# STATIC_ROOT = BASE_DIR / "staticfiles"
-# STATICFILES_DIRS = (BASE_DIR / "static", )
+STATIC_ROOT = BASE_DIR / "staticfiles"
+STATICFILES_DIRS = (BASE_DIR / "static", )
 
 
 
@@ -124,7 +124,7 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = '/home/xayrull5/xayrullayev.uz/django/media'
 
 
-# MEDIA_ROOT = BASE_DIR, 'media'
+MEDIA_ROOT = BASE_DIR, 'media'
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 

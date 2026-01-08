@@ -1,4 +1,4 @@
-#!/home/diyorbek/PycharmProjects/Resume/.venv/bin/python3
+#!/home/diyorbek/PycharmProjects/Resume/.venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
